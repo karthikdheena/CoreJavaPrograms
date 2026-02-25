@@ -31,9 +31,14 @@ public class StrArr {
 		student[1] = s2;
 		student[2] = s3;
 		
-		for(int i = 0; i < student.length; i++) {
+		//for(int i = 0; i < student.length; i++) {
 			
-			System.out.println(student[i].rollno + "" + student[i].name + "" + student[i].marks);
+			//System.out.println(student[i].rollno + "" + student[i].name + "" + student[i].marks);
+		//}
+		
+		for(Students stud : student) {
+			
+			System.out.println(stud.rollno + "" + stud.name);
 		}
 		
 		
