@@ -15,7 +15,7 @@ public class JaggedArr {
 				 
 				 nums[i][j] = (int)(Math.random()*10);			 
 				 
-			 }
+			 }								//	jagged array 
 		 }
 		 	for(int i = 0; i < nums.length; i++) {
 			 
