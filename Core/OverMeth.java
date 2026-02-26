@@ -2,30 +2,28 @@ package Core;
 
 public class OverMeth {
 	
-	int num (int r1 , int r2) {
+	int nums(int r1, int r2) {
 		
 		return r1 + r2;
-	}
+	} 
 	
-	int num(int r1 , int r2 , int r3) {
+	int nums(int r1, int r2, int r3) {
 		
 		return r1 + r2 + r3;
-											//MwthodOverLoading
 	}
-	double num1(double r1 , int r2) {
+	
+	double nums1(double r1 , int r2) {
 		
 		return r1 + r2;
 	}
+		
 public static void main(String[] args) {
 	
 	OverMeth obj = new OverMeth();
-	int num = obj.num(10,20,30);
-	double num1 = obj.num1(2.0,10);
+	int nums = obj.nums(20, 30, 40);
+	double nums1 = obj.nums1(2.0, 20);
 	
-	System.out.println(num);
-		
-
-		
+		System.out.print(nums);
 
 	}
 

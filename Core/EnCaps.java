@@ -1,28 +1,26 @@
 package Core;
-
 class Man{
 	
 	private int age;
-	private String Name;
+	private String name;
 	
 	public int getAge() {
 		
 		return age;
 	}
-	public void setAge(int a) {
+	public void setage(int a) {
 		
-		age = a;
+		 age = a;
 	}
-	public String  getName() {
+public String getname() {
 		
-		return Name;
+		return name;
+	}
+	public void setname(String n) {
+		
+		 name = n;
 	}
 	
-	public void setName(String n) {
-		
-		Name = n;		//encapsulation
-	}
-
 }
 public class EnCaps {
 
@@ -30,10 +28,13 @@ public class EnCaps {
 		
 		Man obj = new Man();
 		
-		obj.setAge(21);
-		obj.setName("Karthikdheena");
+		obj.setage(21);
+		obj.setname("karthik");
 		
-		System.out.println(obj.getAge() + ":" + obj.getName());
+		System.out.println(obj.getAge() + ":" + obj.getname());
+		
+		
+	
 		
 
 	}

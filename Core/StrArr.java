@@ -1,46 +1,37 @@
 package Core;
 
-class Students {
+class students{
 	
 	int rollno;
 	String name;
-	int marks;
+	
 }
 
 public class StrArr {
 
 	public static void main(String[] args) {
 		
-		Students s1 = new Students();
-		s1.rollno = 1;
-		s1.name = "karthik";
-		s1.marks = 80;
+		students obj =  new students();
+
+		obj.name = "karthik";
+		obj.rollno = 2;
 		
-		Students s2 = new Students();
-		s2.rollno = 1;
-		s2.name = "Mano";
-		s2.marks = 20;			//String arrays object
+		students obj1 =  new students();
 		
-		Students s3 = new Students();
-		s3.rollno = 1;
-		s3.name = "Babu";
-		s3.marks = 60;
+		obj1.name = "tommy";
+		obj1.rollno = 1;
 		
-		Students student[] = new Students[3];
-		student[0] = s1;
-		student[1] = s2;
-		student[2] = s3;
+		students stud[] = new students[2];
 		
-		//for(int i = 0; i < student.length; i++) {
-			
-			//System.out.println(student[i].rollno + "" + student[i].name + "" + student[i].marks);
-		//}
+		stud[0] = obj;
+		stud[1] = obj1;
 		
-		for(Students stud : student) {
-			
-			System.out.println(stud.rollno + "" + stud.name);
+	for(students str : stud){
+		
+		System.out.println(str.rollno + ":" + str.name);
+		
 		}
-		
+
 		
 	}
 }
