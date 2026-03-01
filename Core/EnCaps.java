@@ -1,6 +1,7 @@
 package Core;
 class Man{
 	
+	
 	private int age;
 	private String name;
 	
