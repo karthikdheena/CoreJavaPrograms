@@ -17,7 +17,7 @@ final class Hello{	//	final class
 	}
 }
 
-//class Bye extends Hello {
+//class Bye extends Hello { don't work 
 
 //public void show()
 	
